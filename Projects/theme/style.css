@@ -1,0 +1,70 @@
+
+
+.backDrop{
+  background-color: papayawhip;
+}
+img{
+  max-width: 260px;
+  max-height: 360px;
+  border-radius: 20px;
+}
+h1{
+  font-size: 5em;
+  font-family: sans-serif;
+  color: blue solid;
+  background-color: blue;
+}
+.container{
+  max-width: 500px;
+}
+p{
+  color:green;
+  font-family: cursive;
+  font-size: 2em;
+}
+ul.Container{
+  color:orange;
+  font-size: 3em;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+ol li:first-child{
+  color:turquoise;
+  font-family: fantasy;
+  background-color: purple;
+}
+ol.Container li{
+    max-width: 760px;
+      border: solid 1px teal;
+  }
+  ol li:nth-child(2){
+    background-color: chartreuse;
+  }
+ol li:nth-child(3n){
+  background-color: red;
+}
+.Category{
+  background-color: pink;
+  margin-right: auto;
+}
+
+#nav{
+  padding:10px;
+
+}
+#header{
+  color: black;
+  font-family: cursive;
+}
+#Content{
+  font-size: 3em;
+  colore: red;
+  padding: 10px;
+background-color: papayawhip
+}
+#Footer{
+  color:brown;
+  font-family: cursive;
+  font-size: 4em;
+}
