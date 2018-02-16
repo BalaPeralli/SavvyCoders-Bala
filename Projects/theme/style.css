@@ -9,10 +9,11 @@ img{
   border-radius: 20px;
 }
 h1{
-  font-size: 5em;
+  font-size: 1em;
   font-family: sans-serif;
   color: blue solid;
   background-color: blue;
+  margin:auto;
 }
 .container{
   max-width: 500px;
@@ -49,9 +50,42 @@ ol li:nth-child(3n){
   margin-right: auto;
 }
 
-#nav{
+#nav>ul>li{
   padding:10px;
+  color:red;
+  list-style: none;
 
+
+
+}
+#nav ul.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  width: 100vw;
+  background-color: teal;
+
+}
+#nav .dropdown{
+  position:absolute;
+  display: none;
+}
+#nav .dropdown:hover, #nav a:hover + .dropdown{
+  display: block;
+  position: absolute;
+}
+
+
+#nav li:first-child{
+  position: relative;
 }
 #header{
   color: black;
