@@ -1,5 +1,70 @@
+body{
+  margin: 0;
+  background-color: papayawhip;
+}
+#container{
+  height:100%;
+  padding: 10px;
+
+}
+.button4{
+  float: right;
+  padding-left: 10px;
+  padding-right: : 70px;
+
+  color: blue;
+  justify-content: space-between;
+  margin-right: : 30px;
+
+}
+.button3{
+  float:right;
+   padding-right: 50px;
+  padding-left: : 10px;
+  justify-content: space-between;
+
+}
+.button2{
+  float:right;
+padding-right: 50px;
+  padding-left: : 10px;
+  justify-content: space-between;
 
 
+}
+.button1{
+  float:right;
+align-items: center;
+  padding-left: 10px;
+padding-right: 50px;
+  justify-content: space-between;
+}
+
+#welcome{
+  float:right;
+  padding-top: 40px;
+  font-size: 30px;
+  padding-left: 40px;
+  align-items: center
+}
+#welcome h2{
+  color:purple;
+}
+#self{
+
+  display: inline;
+float: right;
+align-items: center;
+padding-left: 40px;
+}
+h3{
+  color: teal;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.text{
+  line-height: 35px;
+}
 .backDrop{
   background-color: papayawhip;
 }
@@ -9,10 +74,10 @@ img{
   border-radius: 20px;
 }
 h1{
-  font-size: 1em;
+  font-size: 30px;
   font-family: sans-serif;
   color: blue solid;
-  background-color: blue;
+
   margin:auto;
 }
 .container{
