@@ -1,0 +1,123 @@
+#content-headc h1{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  font-size: 50px;
+  align-items: center;
+  text-transform: uppercase;
+}
+hr{
+  display: block;
+  margin-left: 80px;
+  margin-right: 90px;
+  border-style: inset;
+  border-width: 1px;
+
+}
+.curriculam p{
+  padding-top: 20px;
+  margin-left: 80px;
+  margin-right: 90px;
+  /* background-color: orange; */
+
+}
+.contact-form {
+    width: 30%;
+    margin: 0 auto;
+
+    justify-content: center;
+}
+#formbox{
+  padding-top: 60px;
+ background-color: white;
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid;
+  box-shadow: 0.15px 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+/* *:focus {outline:none ;} */
+/* css for contact footer */
+#cfooter ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  font-size: 16px;
+  font-family: helvetica, arial, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#cfooter {
+  background-color: #333;
+}
+
+#cfooter li.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#cfooter li:hover {
+  background-color: blue;
+  color: black;
+}
+
+/*  skillset css for aboutme*/
+/*
+.site-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.site-section-inside {
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+}
+
+.site-section-secondary {
+    background: #EFEFEF;
+}
+ */
+.sub-container h3{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  font-size: 50px;
+  align-items: center;
+}

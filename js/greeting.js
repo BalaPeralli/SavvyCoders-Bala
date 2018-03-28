@@ -1,14 +1,29 @@
+/* globals $*/
 
+    
+/* globals $ */
 
-var greetuser = function greetuser(){
-    var firstName = prompt( "What is your name" );
+var $submit = $( "#submit-user" );
+var $user = $( "#user" );
+var $h2 = $( "h2" );
+var title = $h2.text();
 
-    if( !firstName ){
-        greetuser();
+function greetUser(){
+    var firstName = $user.val();
+
+    if( firstName ){
+        $h2.text( title + " " + firstName );
     }
-    else{
-        alert( "Hello" + firstName );
+}
+function inputCallBack( event ){
+    if( event.which === 13 ){
+        greetUser();
     }
-};
+}
+$submit.on( "click", greetUser );
+$user.on( "keypress", inputCallBack );
 
-greetuser();
+// else{
+// document.querySelector( "h2" ).textContent += " " + firstName;
+// }
+// });
